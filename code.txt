@@ -1,0 +1,21 @@
+#include<stdio.h>
+int a=0, b=0;
+int x1,x2,x3,x4,x5;
+void setup() 
+{
+  pinMode(2,OUTPUT);
+
+}
+
+void loop() {
+  digitalRead(a);
+  digitalRead(b);
+  x1=!(a&&b);
+  x2=!(x0&&a);
+  x3=!(x0&&b);
+  x4=!(x1&&x2);
+  x5=!(x3);
+  digitalWrite(2,x5);
+  delay(1000);
+
+}
